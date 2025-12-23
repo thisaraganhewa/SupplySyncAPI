@@ -1,0 +1,9 @@
+D:\my projects\SupplySync\Project\Backend\SupplySync.Application\bin\Debug\SupplySync.Application.dll
+D:\my projects\SupplySync\Project\Backend\SupplySync.Application\bin\Debug\SupplySync.Application.pdb
+D:\my projects\SupplySync\Project\Backend\SupplySync.Application\bin\Debug\SupplySync.Domain.dll
+D:\my projects\SupplySync\Project\Backend\SupplySync.Application\bin\Debug\SupplySync.Domain.pdb
+D:\my projects\SupplySync\Project\Backend\SupplySync.Application\obj\Debug\SupplySync.Application.csproj.AssemblyReference.cache
+D:\my projects\SupplySync\Project\Backend\SupplySync.Application\obj\Debug\SupplySync.Application.csproj.CoreCompileInputs.cache
+D:\my projects\SupplySync\Project\Backend\SupplySync.Application\obj\Debug\SupplySy.C6A3C6EC.Up2Date
+D:\my projects\SupplySync\Project\Backend\SupplySync.Application\obj\Debug\SupplySync.Application.dll
+D:\my projects\SupplySync\Project\Backend\SupplySync.Application\obj\Debug\SupplySync.Application.pdb
