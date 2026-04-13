@@ -1,6 +1,0 @@
-D:\my projects\SupplySync\Project\Backend\SupplySync.Domain\bin\Debug\SupplySync.Domain.dll
-D:\my projects\SupplySync\Project\Backend\SupplySync.Domain\bin\Debug\SupplySync.Domain.pdb
-D:\my projects\SupplySync\Project\Backend\SupplySync.Domain\obj\Debug\SupplySync.Domain.csproj.AssemblyReference.cache
-D:\my projects\SupplySync\Project\Backend\SupplySync.Domain\obj\Debug\SupplySync.Domain.csproj.CoreCompileInputs.cache
-D:\my projects\SupplySync\Project\Backend\SupplySync.Domain\obj\Debug\SupplySync.Domain.dll
-D:\my projects\SupplySync\Project\Backend\SupplySync.Domain\obj\Debug\SupplySync.Domain.pdb
