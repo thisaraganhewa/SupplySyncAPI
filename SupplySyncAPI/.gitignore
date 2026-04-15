@@ -1,0 +1,78 @@
+# =========================
+# Build artifacts
+# =========================
+bin/
+obj/
+out/
+publish/
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Rider
+# =========================
+.idea/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment / Secrets
+# =========================
+appsettings.Development.json
+appsettings.Local.json
+*.env
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# =========================
+# EF Core
+# =========================
+Migrations/*.Designer.cs
+
+# (Optional: only if you regenerate migrations)
+# Migrations/
+
+# =========================
+# Test Results
+# =========================
+TestResults/
+*.trx
+*.coverage
+
+# =========================
+# Publish / Deployment
+# =========================
+*.publishsettings
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
