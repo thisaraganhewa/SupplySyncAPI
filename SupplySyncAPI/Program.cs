@@ -1,3 +1,7 @@
+
+using Microsoft.Extensions.Options;
+using SupplySync.Infrastructure.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -8,11 +12,15 @@ builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
-using (var scope = app.Services.CreateScope())
-{
-    var context = scope.ServiceProvider.GetRequiredService<MongoDbContext>();
+builder.Services.Configure<MongoDbSettings>(
+        builder.Configuration.GetSection("Mongo")
+    );
 
-}
+builder.Services.AddSingleton<IMongoClient>(sp =>
+{
+    var settings = sp.GetRequiredService<IOptions<MongoDbSettings>>().Value;
+    return new MongoClient(settings.ConnectionString);
+});
 
     // Configure the HTTP request pipeline.
     if (app.Environment.IsDevelopment())
