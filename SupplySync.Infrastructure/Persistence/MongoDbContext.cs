@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace SupplySync.Infrastructure.Persistence
 {
-    class MongoDbContext
+    public class MongoDbContext
     {
         private readonly IMongoDatabase _database;
 
