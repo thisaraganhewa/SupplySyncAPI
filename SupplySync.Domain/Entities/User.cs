@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SupplySync.Domain.Entities
 {
-    class User
+    public class User
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
