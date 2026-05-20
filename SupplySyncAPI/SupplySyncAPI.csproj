@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SupplySync.Application\SupplySync.Application.csproj" />
     <ProjectReference Include="..\SupplySync.Infrastructure\SupplySync.Infrastructure.csproj" />
   </ItemGroup>
 

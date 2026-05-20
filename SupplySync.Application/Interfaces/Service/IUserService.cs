@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SupplySync.Application.Interfaces.Service
 {
-    interface IUserService
+    public interface IUserService
     {
         Task<List<User>> GetAllUsersAsync();
     }
