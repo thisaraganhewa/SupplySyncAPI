@@ -18,9 +18,9 @@ namespace SupplySync.Infrastructure.Repositories
             _userCollection = database.GetCollection<User>("Users");
         }
 
-        public Task<List<User>> GetAllUsersAsync()
+        public async Task<List<User>> GetAllUsersAsync()
         {
-           
+           return await _userCollection.Find(_ => true).ToListAsync();
         }
     }
 }
