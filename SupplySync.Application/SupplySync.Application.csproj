@@ -45,6 +45,7 @@
     <Compile Include="Interfaces\IUserRepository.cs" />
     <Compile Include="Interfaces\Service\IUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\UserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SupplySync.Domain\SupplySync.Domain.csproj">
@@ -52,5 +53,6 @@
       <Name>SupplySync.Domain</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
