@@ -58,3 +58,8 @@ D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\obj\De
 D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\obj\Debug\SupplySy.6427DDD1.Up2Date
 D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\obj\Debug\SupplySync.Infrastructure.dll
 D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\obj\Debug\SupplySync.Infrastructure.pdb
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\SupplySync.Application.dll
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\SupplySync.Domain.dll
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\SupplySync.Application.pdb
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\SupplySync.Domain.pdb
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\SupplySync.Domain.dll.config
