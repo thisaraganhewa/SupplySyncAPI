@@ -16,7 +16,11 @@ namespace SupplySync.Infrastructure.DependencyInjection
         {
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
 
-            services.AddValidatorsFromAssemblies(Assembly.GetExecutingAssembly());
+            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
+
+            return services;
         }
     }
 }
