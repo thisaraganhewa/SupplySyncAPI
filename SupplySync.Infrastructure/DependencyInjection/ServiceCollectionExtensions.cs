@@ -1,5 +1,9 @@
 ﻿using FluentValidation;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MongoDB.Driver;
+using SupplySync.Application.Interfaces;
+using SupplySync.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,13 +16,18 @@ namespace SupplySync.Infrastructure.DependencyInjection
 {
     public static class ServiceCollectionExtensions
     {
-        public static IServiceCollection AddApplication(this IServiceCollection services)
+        public static IServiceCollection AddApplication(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
+            services.AddSingleton<IMongoClient>(
+                 sp =>
+                 {
+                     var connectionString = configuration.GetConnectionString("Mongo");
 
-            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+                     return new MongoClient(connectionString);
+                 }
+                );
 
-            services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            services.AddScoped<IUserRepository, UserRepository>();
 
             return services;
         }
