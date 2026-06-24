@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Options;
 using MongoDB.Bson;
 using MongoDB.Driver;
+using SupplySync.Domain.Entities;
 using SupplySync.Infrastructure.Configuration;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace SupplySync.Infrastructure.Persistence
 {
-    public class MongoDbContext
+    public class MongoDbContext : IMongoDbContext
     {
         private readonly IMongoDatabase _database;
 
@@ -25,6 +26,8 @@ namespace SupplySync.Infrastructure.Persistence
         {
             return _database.GetCollection<T>(name);
         }
+
+        public IMongoCollection<User> Users => _database.GetCollection<User>("Users");
 
         public async Task PingAsync()
         {
