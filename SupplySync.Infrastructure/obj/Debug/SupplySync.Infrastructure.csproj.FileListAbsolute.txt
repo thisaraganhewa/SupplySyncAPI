@@ -63,3 +63,15 @@ D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\De
 D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\SupplySync.Application.pdb
 D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\SupplySync.Domain.pdb
 D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\SupplySync.Domain.dll.config
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\AutoMapper.dll
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\FluentValidation.DependencyInjectionExtensions.dll
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\FluentValidation.dll
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\MediatR.Contracts.dll
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\MediatR.dll
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\SupplySync.Application.dll.config
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\AutoMapper.xml
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\FluentValidation.xml
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\FluentValidation.DependencyInjectionExtensions.xml
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\MediatR.xml
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Infrastructure\bin\Debug\MediatR.Contracts.xml

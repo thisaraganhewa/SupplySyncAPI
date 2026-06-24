@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MongoDB.Driver;
 using SupplySync.Application.Interfaces;
+using SupplySync.Infrastructure.Configuration;
 using SupplySync.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
@@ -16,16 +17,20 @@ namespace SupplySync.Infrastructure.DependencyInjection
 {
     public static class ServiceCollectionExtensions
     {
-        public static IServiceCollection AddApplication(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddSingleton<IMongoClient>(
-                 sp =>
-                 {
-                     var connectionString = configuration.GetConnectionString("Mongo");
 
-                     return new MongoClient(connectionString);
-                 }
-                );
+            services.Configure<MongoDbSettings>(configuration.GetSection("Mongo"));
+
+            services.AddSingleton<IMongoClient>(
+                sp => 
+                { 
+                    var settings = configuration.GetSection("Mongo").Get<MongoDbSettings>();
+                    return new MongoClient(settings.ConnectionString);
+                }
+            );
+
+            //services.AddScoped<IMongoDbContext, Mongo>();
 
             services.AddScoped<IUserRepository, UserRepository>();
 
