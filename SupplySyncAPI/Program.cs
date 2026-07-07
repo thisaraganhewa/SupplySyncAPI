@@ -4,6 +4,7 @@ using MongoDB.Driver;
 using SupplySync.Infrastructure.Configuration;
 using SupplySync.Infrastructure.Persistence;
 using SupplySync.Application.DependencyInjection;
+using SupplySync.Infrastructure.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +15,7 @@ builder.Services.AddControllers();
 builder.Services.AddApplication();
 
 
-builder.Services.AddApplication(builder.Configuration);
+builder.Services.AddInfrastructure(builder.Configuration);
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
