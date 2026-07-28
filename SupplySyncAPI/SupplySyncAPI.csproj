@@ -12,4 +12,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SupplySync.Application\SupplySync.Application.csproj" />
+    <ProjectReference Include="..\SupplySync.Infrastructure\SupplySync.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

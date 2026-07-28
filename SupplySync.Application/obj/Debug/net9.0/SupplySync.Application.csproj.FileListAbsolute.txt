@@ -1,0 +1,16 @@
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Application\obj\Debug\net9.0\SupplySync.Application.csproj.AssemblyReference.cache
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Application\obj\Debug\net9.0\SupplySync.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Application\obj\Debug\net9.0\SupplySync.Application.AssemblyInfoInputs.cache
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Application\obj\Debug\net9.0\SupplySync.Application.AssemblyInfo.cs
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Application\obj\Debug\net9.0\SupplySync.Application.csproj.CoreCompileInputs.cache
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Application\obj\Debug\net9.0\SupplySync.Application.sourcelink.json
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Application\bin\Debug\net9.0\SupplySync.Application.deps.json
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Application\bin\Debug\net9.0\SupplySync.Application.dll
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Application\bin\Debug\net9.0\SupplySync.Application.pdb
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Application\bin\Debug\net9.0\SupplySync.Domain.dll
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Application\bin\Debug\net9.0\SupplySync.Domain.pdb
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Application\obj\Debug\net9.0\SupplySy.C6A3C6EC.Up2Date
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Application\obj\Debug\net9.0\SupplySync.Application.dll
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Application\obj\Debug\net9.0\refint\SupplySync.Application.dll
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Application\obj\Debug\net9.0\SupplySync.Application.pdb
+D:\my projects\SupplySync\Project\SupplySyncAPI\SupplySync.Application\obj\Debug\net9.0\ref\SupplySync.Application.dll

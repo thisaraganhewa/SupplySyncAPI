@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 
 namespace SupplySync.Infrastructure.Persistence
 {
-    interface IMongoDbContext
+    public interface IMongoDbContext
     {
         IMongoCollection<User> Users { get; }
+        Task PingAsync();
     }
 }
