@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MongoDB.Driver;
 using SupplySync.Application.Interfaces;
+using SupplySync.Application.Interfaces.Repository;
 using SupplySync.Application.Interfaces.Service;
 using SupplySync.Application.Services;
 using SupplySync.Infrastructure.Configuration;
@@ -36,8 +37,10 @@ namespace SupplySync.Infrastructure.DependencyInjection
             services.AddScoped<IMongoDbContext, MongoDbContext>();
 
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IMongoHealthRepository, MongoHealthRepository>();
 
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IHealthService, HealthService>();
 
             return services;
         }
