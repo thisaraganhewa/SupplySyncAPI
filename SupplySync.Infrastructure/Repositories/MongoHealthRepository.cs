@@ -25,9 +25,9 @@ namespace SupplySync.Infrastructure.Repositories
                 await mongoDbContext.PingAsync();
                 return true;
             }
-            catch
+            catch(Exception ex)
             {
-                return false;
+                throw new Exception("MongoDB Ping Failed", ex);
             }
         }
     }
