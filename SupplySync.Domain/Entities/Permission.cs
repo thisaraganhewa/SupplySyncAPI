@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SupplySync.Domain.Entities
 {
-    class Permission
+    public class Permission
     {
         public string Id { get; private set; } = null!;
 

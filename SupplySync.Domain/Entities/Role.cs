@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SupplySync.Domain.Entities
 {
-    class Role
+    public class Role
     {
         public string Id { get; private set; } = null!;
 

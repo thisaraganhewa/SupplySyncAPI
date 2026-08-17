@@ -6,17 +6,15 @@ using System.Threading.Tasks;
 
 namespace SupplySync.Domain.Entities
 {
-    public class UserRole
+    public class RolePermission
     {
         public string Id { get; private set; } = null!;
 
-        public string UserId { get; private set; } = null!;
-
         public string RoleId { get; private set; } = null!;
 
-        public DateTime AssignedAt { get; private set; }
+        public string PermissionId { get; private set; } = null!;
 
-        public string? AssignedBy { get; private set; }
+        public DateTime AssignedAt { get; private set; }
 
         public bool IsActive { get; private set; }
     }
