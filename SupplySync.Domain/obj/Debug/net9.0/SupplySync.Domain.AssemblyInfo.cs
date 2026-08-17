@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SupplySync.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f120453009a4a78f8aab6d1ba5d48bc88b2b921")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e65b4cbe5c800d39f5684bda2a80c7cd381ca48")]
 [assembly: System.Reflection.AssemblyProductAttribute("SupplySync.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SupplySync.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
