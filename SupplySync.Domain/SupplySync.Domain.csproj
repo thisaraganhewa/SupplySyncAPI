@@ -10,4 +10,10 @@
     <PackageReference Include="MongoDB.Driver" Version="2.25.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Entities\Authentication\Logout\" />
+    <Folder Include="Entities\Authentication\ChangePassword\" />
+    <Folder Include="Entities\Authentication\RefreshToken\" />
+  </ItemGroup>
+
 </Project>
