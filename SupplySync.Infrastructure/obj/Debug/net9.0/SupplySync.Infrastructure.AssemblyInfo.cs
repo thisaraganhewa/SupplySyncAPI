@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SupplySync.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2385a4e3effecc7b7770219c6026e1cb2fb57d2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51b61179e4fcb303c4e81a7fb82be16078691120")]
 [assembly: System.Reflection.AssemblyProductAttribute("SupplySync.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SupplySync.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
